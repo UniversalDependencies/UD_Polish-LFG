@@ -14,7 +14,7 @@ The annotation differs from the previous UD treebank of Polish also in other res
 * __Predicative complements__ of non-copular verbs are consistently marked as `xcomp`.
 * Preposition + short pronoun contractions are __tokenised__ properly.
 * A distinction is made between __interrogative and relative pronouns__.
-* Impersonal uses of the so-called reflexive marker _się_ are distinguished.
+* Impersonal uses of the so-called __reflexive marker__ _się_ are distinguished.
 
 # Data Split
 
