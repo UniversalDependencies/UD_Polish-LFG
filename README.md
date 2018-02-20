@@ -9,7 +9,12 @@ The treebank consists of around 17,200 sentences (see the Data Split section for
 The annotation differs from the previous UD treebank of Polish also in other respects, including the following:
 * __Direct objects__ are understood here not as just any bare nominal required dependents of verbs, but as those dependents which passivise, i.e., which become subjects in the passive voice.  In the case of nominal direct objects, the standard `obj` relation is used, and in the case of clausal direct objects, the subtyped `ccomp:obj` is applied.
 * Only dative required nominal dependents are understood as __indirect objects__.  
+* The three __masculine genders__ in Polish are represented via the language-specific `SubGender` feature (rather than `Animacy`).
+* Abbreviations are assigned informative parts of speech.
+* __Predicative complements__ of non-copular verbs are consistently marked as `xcomp`.
+* Preposition + short pronoun contractions are __tokenised__ properly.
 * A distinction is made between __interrogative and relative pronouns__.
+* Impersonal uses of the so-called reflexive marker _się_ are distinguished.
 
 # Data Split
 
