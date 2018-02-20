@@ -6,7 +6,7 @@ The LFG Enhanced UD treebank of Polish is based on a corpus of LFG (Lexical Func
 
 The treebank consists of around 17,200 sentences (see the Data Split section for precise numbers).  Thanks to richness of the original LFG representations, it makes heavy use of enhanced dependencies.  Secondary edges are used not only in representations of coordination (for shared dependents and shared governors), but also for various control-like constructions.
 
-The annotation differs from the SZ UD treebank of Polish also in other respects, including the following:
+The annotation differs from (the release 2.1 of) the SZ UD treebank of Polish also in other respects, including the following:
 * __Direct objects__ are understood here not as just any bare nominal required dependents of verbs, but as those dependents which passivise, i.e., which become subjects in the passive voice.  In the case of nominal direct objects, the standard `obj` relation is used, and in the case of clausal direct objects, the subtyped `ccomp:obj` is applied.
 * Only dative required nominal dependents are understood as __indirect objects__.  
 * The three __masculine genders__ in Polish are represented via the language-specific `SubGender` feature (rather than `Animacy`).
@@ -17,7 +17,7 @@ The annotation differs from the SZ UD treebank of Polish also in other respects,
 * __Impersonal__ _-no/-to_ forms are correctly marked as verbs (rather than as adjectival passive participles).
 * Impersonal uses of the so-called __reflexive marker__ _się_ are distinguished (as `expl:impers`).
 
-# Data Split
+# Data Split and Genres
 
 19,597 sentences with their LFG syntactic structures form an input to the conversion.  Many of these are sentences with multiple possible LFG analyses, as well as accidental duplicates.  After conversion only unique UD structures are retained, i.e., a sentence may appear in the corpus a couple of times only with different dependency annotations.  As a result, the LFG Enhanced UD treebank contains 17,246 dependency trees (with 130,967 segments) for 17,190 different sentences.  (This should be contrasted with the SZ UD treebank of Polish, which contains repeated sentences with identical annotations.)
 
@@ -28,10 +28,12 @@ Second, the remaining sentences were randomly added to the development and test 
 * development: 1745 trees (13,105 tokens),
 * test: 1727 trees (13,112 tokens).
 
+About 42.1% of sentences represent the fiction genre, 39.1% – news, 7.4\% – nonfiction, 7.3% – spoken, 3% – interactive Internet texts (forums, chatrooms, etc.), and there are also traces of static Internet pages (0.8%), academic style (0.3%) and legal texts (0.1%).  For each sentence, genre is explicitly given in a comment to this sentence.
+
 
 # Acknowledgments
 
-The original LFG corpus has been developed under the supervision of Agnieszka Patejuk (many thanks to the annotators!) and has been converted to UD by Adam Przepiórkowski, in collaboration with Agnieszka Patejuk.  Both the creation of the original LFG corpus and the conversion into UD have been partially supported by the Polish Ministry of Science and Higher Education within the CLARIN ERIC programme 2015–2018 (http://clarin.eu/).  The data, lemmata and original morphosyntactic tags come from the manually annotated subcorpus of the National Corpus of Polish (led by Adam Przepiórkowski; http://nkjp.pl/), whose development was financed by the Polish Ministry of Science and Higher Education in 2007–2011.  Many thanks to Joakim Nivre and Dan Zeman for their infinite patience in answering a myriad of diverse UD-related questions during the development of this treebank.
+The original LFG corpus has been developed under the supervision of Agnieszka Patejuk (many thanks to the annotators!) and has been converted to UD by Adam Przepiórkowski, in collaboration with Agnieszka Patejuk.  Both the creation of the original LFG corpus and the conversion into UD have been partially supported by the Polish Ministry of Science and Higher Education within the CLARIN ERIC programme 2015–2018 (http://clarin.eu/).  The data, lemmata and original morphosyntactic tags come from the manually annotated subcorpus of the National Corpus of Polish (led by Adam Przepiórkowski; http://nkjp.pl/), whose development was financed by the Polish Ministry of Science and Higher Education in 2007–2011, and – to a lesser extent – from the corpus Polish language of the 1960s (http://clip.ipipan.waw.pl/PL196x).  Many thanks to Joakim Nivre and Dan Zeman for their infinite patience in answering a myriad of diverse UD-related questions during the development of this treebank.
 
 
 ## References
