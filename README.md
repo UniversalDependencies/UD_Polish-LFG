@@ -10,11 +10,12 @@ The annotation differs from the previous UD treebank of Polish also in other res
 * __Direct objects__ are understood here not as just any bare nominal required dependents of verbs, but as those dependents which passivise, i.e., which become subjects in the passive voice.  In the case of nominal direct objects, the standard `obj` relation is used, and in the case of clausal direct objects, the subtyped `ccomp:obj` is applied.
 * Only dative required nominal dependents are understood as __indirect objects__.  
 * The three __masculine genders__ in Polish are represented via the language-specific `SubGender` feature (rather than `Animacy`).
-* Abbreviations are assigned informative parts of speech.
+* __Abbreviations__ are assigned parts of speech of their full forms.
 * __Predicative complements__ of non-copular verbs are consistently marked as `xcomp`.
 * Preposition + short pronoun contractions are __tokenised__ properly.
 * A distinction is made between __interrogative and relative pronouns__.
-* Impersonal uses of the so-called __reflexive marker__ _się_ are distinguished.
+* __Impersonal__ _-no/-to_ forms are correctly marked as verbs (rather than as adjectival passive participles).
+* Impersonal uses of the so-called __reflexive marker__ _się_ are distinguished (as `expl:impers`).
 
 # Data Split
 
