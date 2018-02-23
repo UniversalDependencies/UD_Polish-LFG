@@ -1,3 +1,19 @@
+#    Copyright (C) 2018 Agnieszka Patejuk, Adam Przepiórkowski
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#
 # sent_id = test-1
 # text = 569 lat temu spalono na stosie Joannę D'Arc.
 # converted_from_file = Skladnica--FULL_1202910000001_morph_21-p_morph_21.34-s-dis@1.xml
@@ -542,7 +558,7 @@
 # text = A więc zauważyła.
 # converted_from_file = NKJP1M_2001000030_morph_4-p_morph_4.16-s-dis@1.xml
 # genre = fiction
-1	A	A	CCONJ	conj	_	3	cc	3:cc	_
+1	A	a	CCONJ	conj	_	3	cc	3:cc	_
 2	więc	więc	CCONJ	conj	_	1	fixed	1:fixed	_
 3	zauważyła	zauważyć	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	interp	PunctType=Peri	3	punct	3:punct	_

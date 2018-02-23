@@ -1,3 +1,19 @@
+#    Copyright (C) 2018 Agnieszka Patejuk, Adam Przepiórkowski
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#
 # sent_id = dev-1
 # text = 423 razy spotkały się cztery rządowe komitety.
 # converted_from_file = NKJP1M_1305000000286_morph_1-p_morph_1.24-s-dis@1.xml
@@ -265,7 +281,7 @@
 # text = A więc to nie były czcze pogróżki z jego strony, naprawdę miał zamiar wywieźć dziecko.
 # converted_from_file = NKJP1M_2004000000308_morph_9-p_morph_9.38-s-dis@1.xml
 # genre = fiction
-1	A	A	CCONJ	conj	_	3	cc	3:cc	_
+1	A	a	CCONJ	conj	_	3	cc	3:cc	_
 2	więc	więc	CCONJ	conj	_	1	fixed	1:fixed	_
 3	to	to	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
 4	nie	nie	PART	qub	Polarity=Neg	3	advmod	3:advmod	_
@@ -528,7 +544,7 @@
 # text = Ale i tutaj lekarze rozkładają bezradnie ręce.
 # converted_from_file = NKJP1M_1302900005_morph_28-p_morph_28.43-s-dis@1.xml
 # genre = news
-1	Ale	Ale	CCONJ	conj	_	5	cc	5:cc	_
+1	Ale	ale	CCONJ	conj	_	5	cc	5:cc	_
 2	i	i	CCONJ	conj	_	1	fixed	1:fixed	_
 3	tutaj	tutaj	ADV	adv	PronType=Dem	5	advmod	5:advmod	_
 4	lekarze	lekarz	NOUN	subst:pl:nom:m1	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc1	5	nsubj	5:nsubj	_
