@@ -6444,7 +6444,7 @@
 1	Jeszcze	jeszcze	PART	qub	_	3	advmod	3:advmod	_
 2	parę	parę	DET	num:pl:acc:f:rec	Case=Acc|Gender=Fem|Number=Plur|NumType=Card|PronType=Ind	3	det	3:det	DepType=Rec
 3	sekund	sekunda	NOUN	subst:pl:gen:f	Case=Gen|Gender=Fem|Number=Plur	5	obl	5:obl	SpaceAfter=No
-4	;	;	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+4	;	;	PUNCT	interp	PunctType=Semi	5	punct	5:punct	_
 5	trzeba	trzeba	VERB	pred	Mood=Ind|Tense=Pres|VerbForm=Fin|VerbType=Quasi	0	root	0:root	_
 6	uderzyć	uderzyć	VERB	inf:perf	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	5:xcomp	_
 7	sierżanta	sierżant	NOUN	subst:sg:acc:m1	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc1	6	obj	6:obj	_
@@ -21128,7 +21128,7 @@
 # genre = fiction
 1	Ziewając	ziewać	VERB	pcon:imperf	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	2	advcl	2:advcl	_
 2	zasypiali	zasypiać	VERB	praet:pl:m1:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
-3	;	;	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
+3	;	;	PUNCT	interp	PunctType=Semi	10	punct	10:punct	_
 4	cicho	cicho	ADV	adv:pos	Degree=Pos	10	advmod	10:advmod	SpaceAfter=No
 5	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
 6	nie	nie	PART	qub	Polarity=Neg	7	advmod	7:advmod	_

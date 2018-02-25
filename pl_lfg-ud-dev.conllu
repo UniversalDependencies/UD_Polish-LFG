@@ -6657,7 +6657,7 @@
 8	się	się	PRON	qub	PronType=Prs|Reflex=Yes	7	expl:pv	7:expl:pv	_
 9	na	na	ADP	prep:loc	AdpType=Prep	10	case	10:case	Case=Loc
 10	podwórzu	podwórze	NOUN	subst:sg:loc:n	Case=Loc|Gender=Neut|Number=Sing	7	obl	7:obl:na	SpaceAfter=No
-11	;	;	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
+11	;	;	PUNCT	interp	PunctType=Semi	12	punct	12:punct	_
 12	znaczy	znaczyć	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	4:conj	SpaceAfter=No
 13	,	,	PUNCT	interp	PunctType=Comm	16	punct	16:punct	_
 14	że	że	SCONJ	comp	_	16	mark	16:mark	_
@@ -15145,7 +15145,7 @@
 5	przyjaciela	przyjaciel	NOUN	subst:sg:acc:m1	Case=Acc|Gender=Masc|Number=Sing|SubGender=Masc1	1	obl	1:obl:na	SpaceAfter=No
 6	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	_
 7	wyczekująco	wyczekująco	ADV	adv:pos	Degree=Pos	1	advmod	1:advmod	SpaceAfter=No
-8	;	;	PUNCT	interp	PunctType=Comm	12	punct	12:punct	_
+8	;	;	PUNCT	interp	PunctType=Semi	12	punct	12:punct	_
 9	w	w	ADP	prep:loc:nwok	AdpType=Prep|Variant=Short	10	case	10:case	Case=Loc
 10	końcu	koniec	NOUN	subst:sg:loc:m3	Case=Loc|Gender=Masc|Number=Sing|SubGender=Masc3	12	obl	12:obl:w	_
 11	nie	nie	PART	qub	Polarity=Neg	12	advmod	12:advmod	_
