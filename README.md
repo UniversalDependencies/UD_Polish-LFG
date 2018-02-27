@@ -50,7 +50,7 @@ A citable description of this treebank is in progress.  Below are references to 
 Data available since: UD v2.2
 License: GNU GPL 3.0
 Includes text: yes
-Genre: fiction nonfiction news legal academic spoken blog social
+Genre: fiction nonfiction news spoken social
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
