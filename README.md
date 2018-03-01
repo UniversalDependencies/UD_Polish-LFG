@@ -4,7 +4,7 @@ The LFG Enhanced UD treebank of Polish is based on a corpus of LFG (Lexical Func
 
 # Introduction
 
-The treebank consists of around 17,200 sentences (see the Data Split section for precise numbers).  Thanks to richness of the original LFG representations, it makes heavy use of enhanced dependencies.  Secondary edges are used not only in representations of coordination (for shared dependents and shared governors), but also for various control-like constructions.
+The treebank consists of around 17,200 sentences (see the Data Split section for precise numbers).  Thanks to the richness of the original LFG representations, it makes heavy use of enhanced dependencies.  Secondary edges are used not only in representations of coordination (for shared dependents and shared governors), but also for various control-like constructions.
 
 The annotation differs from (the release 2.1 of) the SZ UD treebank of Polish also in other respects, including the following:
 * __Direct objects__ are understood here not as just any bare nominal required dependents of verbs, but as those dependents which passivise, i.e., which become subjects in the passive voice.  In the case of nominal direct objects, the standard `obj` relation is used, and in the case of clausal direct objects, the subtyped `ccomp:obj` is applied.
