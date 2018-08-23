@@ -50,6 +50,7 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
       address =      {Warszawa},
       url =          {http://nlp.ipipan.waw.pl/Bib/pat:prz:18:book.pdf}}
 
+# Metadata
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
