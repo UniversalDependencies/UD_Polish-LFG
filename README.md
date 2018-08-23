@@ -35,7 +35,6 @@ About 42.1% of sentences represent the fiction genre, 39.1% – news, 7.4\% – 
 
 The original LFG corpus has been developed under the supervision of Agnieszka Patejuk (many thanks to the annotators!) and has been converted to UD by Adam Przepiórkowski, in collaboration with Agnieszka Patejuk.  Both the creation of the original LFG corpus and the conversion into UD have been partially supported by the Polish Ministry of Science and Higher Education within the CLARIN ERIC programme 2015–2018 (http://clarin.eu/).  The data, lemmata and original morphosyntactic tags come from the manually annotated subcorpus of the National Corpus of Polish (led by Adam Przepiórkowski; http://nkjp.pl/), whose development was financed by the Polish Ministry of Science and Higher Education in 2007–2011, and – to a lesser extent – from the corpus Polish language of the 1960s (http://clip.ipipan.waw.pl/PL196x).  Many thanks to Joakim Nivre and Dan Zeman for their infinite patience in answering a myriad of diverse UD-related questions during the development of this treebank.
 
-
 ## References
 
 If you use this treebank, you are encouraged to cite this book:
@@ -47,8 +46,9 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
       title =        {From {L}exical {F}unctional {G}rammar to Enhanced {U}niversal {D}ependencies: Linguistically informed treebanks of {P}olish},
       publisher =    {Institute of Computer Science, Polish Academy of Sciences},
       year =         2018,
-      address =      {Warszawa},
+      address =      {Warsaw},
       url =          {http://nlp.ipipan.waw.pl/Bib/pat:prz:18:book.pdf}}
+
 
 # Metadata
 
