@@ -52,8 +52,12 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
 
 # Changelog
 
+* 2018-11-01 v2.3
+  * Removed double EUD dependency in sentence train-8762
 * 2018-07-01 v2.2
-  * First official release.
+  * First official release
+* 2018-02-20
+  * First treebank data commit (to be released in v2.2)
 
 
 # Metadata
