@@ -8,7 +8,7 @@ The treebank consists of around 17,200 sentences (see the Data Split section for
 
 The annotation differs from (the release 2.1 of) the SZ UD treebank of Polish also in other respects, including the following:
 * __Direct objects__ are understood here not as just any bare nominal required dependents of verbs, but as those dependents which passivise, i.e., which become subjects in the passive voice.  In the case of nominal direct objects, the standard `obj` relation is used, and in the case of clausal direct objects, the subtyped `ccomp:obj` is applied.
-* Only dative required nominal dependents are understood as __indirect objects__.  
+* Only dative required nominal dependents are understood as __indirect objects__.
 * The three __masculine genders__ in Polish are represented via the language-specific `SubGender` feature (rather than `Animacy`).
 * __Abbreviations__ are assigned parts of speech of their full forms.
 * __Predicative complements__ of non-copular verbs are consistently marked as `xcomp`.
@@ -21,7 +21,7 @@ The annotation differs from (the release 2.1 of) the SZ UD treebank of Polish al
 
 19,597 sentences with their LFG syntactic structures form an input to the conversion.  Many of these are sentences with multiple possible LFG analyses, as well as accidental duplicates.  After conversion only unique UD structures are retained, i.e., a sentence may appear in the corpus a couple of times only with different dependency annotations.  As a result, the LFG Enhanced UD treebank contains 17,246 dependency trees (with 130,967 segments) for 17,190 different sentences.  (This should be contrasted with the SZ UD treebank of Polish, which contains repeated sentences with identical annotations.)
 
-These 17,246 were split into training, development and test subcorpora in two stages.  First, for each sentence, it was checked whether this sentence occurs in the SZ UD treebank of Polish.  If it occurred in the training corpus there, it was also assigned – with all its dependency structures, if there were more than one – to the training subcorpus of the LFG Enhanced UD treebank.  Otherwise, if it was found in the SZ development corpus, it was assigned to the current development corpus.  Otherwise, if it occurred in the SZ test corpus, it was assigned to the current test corpus.  Altogether, 3502 (2594 + 439 + 469, respectively) dependency trees were pre-classified to the tree subcorpora this way.  
+These 17,246 were split into training, development and test subcorpora in two stages.  First, for each sentence, it was checked whether this sentence occurs in the SZ UD treebank of Polish.  If it occurred in the training corpus there, it was also assigned – with all its dependency structures, if there were more than one – to the training subcorpus of the LFG Enhanced UD treebank.  Otherwise, if it was found in the SZ development corpus, it was assigned to the current development corpus.  Otherwise, if it occurred in the SZ test corpus, it was assigned to the current test corpus.  Altogether, 3502 (2594 + 439 + 469, respectively) dependency trees were pre-classified to the tree subcorpora this way.
 
 Second, the remaining sentences were randomly added to the development and test subcorpora until each of these subcorpora contained more than 20\% of the whole corpus, in terms of both the number of dependency trees and the number of tokens.  The rest of the sentences were added to the training corpus.  This procedure results in the following split:
 * training: 13,744 trees (104,750 tokens),
@@ -39,7 +39,7 @@ The original LFG corpus has been developed under the supervision of Agnieszka Pa
 
 If you use this treebank, you are encouraged to cite this book:
 
-Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar to Enhanced Universal Dependencies: Linguistically informed treebanks of Polish.” Institute of Computer Science, Polish Academy of Sciences, Warsaw, 2018.  Downoadable from http://nlp.ipipan.waw.pl/Bib/pat:prz:18:book.pdf.
+Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar to Enhanced Universal Dependencies: Linguistically informed treebanks of Polish.” Institute of Computer Science, Polish Academy of Sciences, Warsaw, 2018.  Downloadable from http://nlp.ipipan.waw.pl/Bib/pat:prz:18:book.pdf.
 
     @Book{pat:prz:18:book,
       author =       {Agnieszka Patejuk and Adam Przepiórkowski},
@@ -48,6 +48,16 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
       year =         2018,
       address =      {Warsaw},
       url =          {http://nlp.ipipan.waw.pl/Bib/pat:prz:18:book.pdf}}
+
+
+# Changelog
+
+* 2018-11-01 v2.3
+  * Removed double EUD dependency in sentence train-8762
+* 2018-07-01 v2.2
+  * First official release
+* 2018-02-20
+  * First treebank data commit (to be released in v2.2)
 
 
 # Metadata
