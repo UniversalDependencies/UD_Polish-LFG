@@ -1,4 +1,4 @@
-#    Copyright (C) 2018 Agnieszka Patejuk, Adam Przepiórkowski
+#    Copyright (C) 2018–2019 Agnieszka Patejuk, Adam Przepiórkowski
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -581,7 +581,7 @@
 # converted_from_file = NKJP1M_2002000034_morph_5-p_morph_5.16-s-dis@1.xml
 # genre = fiction
 1	-	-	PUNCT	interp	PunctType=Dash	10	punct	10:punct	_
-2	Ach	ach	INTJ	interj	_	10	advmod	10:advmod	SpaceAfter=No
+2	Ach	ach	INTJ	interj	_	10	discourse	10:discourse	SpaceAfter=No
 3	,	,	PUNCT	interp	PunctType=Comm	10	punct	10:punct	_
 4	panie	pan	NOUN	subst:sg:voc:m1	Case=Voc|Gender=Masc|Number=Sing|SubGender=Masc1	10	vocative	10:vocative	_
 5	Aleksandrze	Aleksander	PROPN	subst:sg:voc:m1	Case=Voc|Gender=Masc|Number=Sing|SubGender=Masc1	4	flat	4:flat	SpaceAfter=No
@@ -4297,8 +4297,8 @@
 # genre = spoken (conversational)
 1	–	–	PUNCT	interp	PunctType=Dash	5	punct	5:punct	_
 2	dzisiaj	dzisiaj	ADV	adv	_	5	advmod	5:advmod	_
-3	he	he	INTJ	interj	_	5	advmod	5:advmod	_
-4	he	he	INTJ	interj	_	5	advmod	5:advmod	_
+3	he	he	INTJ	interj	_	5	discourse	5:discourse	_
+4	he	he	INTJ	interj	_	5	discourse	5:discourse	_
 5	złamała	złamać	VERB	praet:sg:f:perf	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	się	się	PRON	qub	PronType=Prs|Reflex=Yes	5	expl:pv	5:expl:pv	_
 7	trochę	trochę	ADV	adv	_	5	advmod	5:advmod	SpaceAfter=No
@@ -10961,7 +10961,7 @@
 # converted_from_file = NKJP1M_7203000003_morph_3-p_morph_3.63-s-dis@1.xml
 # genre = spoken (conversational)
 1	–	–	PUNCT	interp	PunctType=Dash	4	punct	4:punct	_
-2	o	o	INTJ	interj	_	4	advmod	4:advmod	_
+2	o	o	INTJ	interj	_	4	discourse	4:discourse	_
 3	jak	jak	ADV	adv:pos	Degree=Pos|PronType=Int	4	advmod	4:advmod	_
 4	jadać	jadać	VERB	inf:imperf	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	0:root	_
 5	brukselkę	brukselka	NOUN	subst:sg:acc:f	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	SpaceAfter=No
@@ -11538,7 +11538,7 @@
 # converted_from_file = NKJP1M_2002000105_morph_4-p_morph_4.8-s-dis@1.xml
 # genre = fiction
 1	-	-	PUNCT	interp	PunctType=Dash	7	punct	7:punct	_
-2	Oj	oj	INTJ	interj	_	7	advmod	7:advmod	SpaceAfter=No
+2	Oj	oj	INTJ	interj	_	7	discourse	7:discourse	SpaceAfter=No
 3	,	,	PUNCT	interp	PunctType=Comm	7	punct	7:punct	_
 4	niech	niech	AUX	qub	Mood=Imp	7	aux:mood	7:aux:mood	_
 5	pani	pani	NOUN	subst:sg:nom:f	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	7:nsubj	_
@@ -14391,7 +14391,7 @@
 5	wjedzie	wjechać	VERB	fin:sg:ter:perf	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	1:conj	_
 6	i	i	CCONJ	conj	_	7	cc	7:cc	_
 7	rozwala	rozwalać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	5:conj	_
-8	ooo	o	INTJ	interj	_	1	advmod	1:advmod|5:advmod|7:advmod	SpaceAfter=No
+8	ooo	o	INTJ	interj	_	1	discourse	1:discourse|5:discourse|7:discourse	SpaceAfter=No
 9	!	!	PUNCT	interp	PunctType=Excl	1	punct	1:punct	_
 
 # sent_id = test-1144
