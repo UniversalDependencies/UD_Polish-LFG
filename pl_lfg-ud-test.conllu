@@ -18985,9 +18985,9 @@
 # converted_from_file = KF_D1250_morph_1-p_morph_1.61-s-dis@1.xml
 # genre = fiction
 1	Wielbłądy	wielbłąd	NOUN	subst:pl:nom:m2	Case=Nom|Gender=Masc|Number=Plur|SubGender=Masc2	5	nsubj	5:nsubj	SpaceAfter=No
-2	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+2	,	,	PUNCT	interp	PunctType=Comm	3	punct	3:punct	_
 3	zrezygnowane	zrezygnowany	ADJ	adj:pl:nom:m2:pos	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|SubGender=Masc2	1	acl	1:acl	SpaceAfter=No
-4	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
+4	,	,	PUNCT	interp	PunctType=Comm	3	punct	3:punct	_
 5	chwiały	chwiać	VERB	praet:pl:m2:imperf	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	nad	nad	ADP	prep:inst:nwok	AdpType=Prep|Variant=Short	7	case	7:case	Case=Ins
 7	tłumem	tłum	NOUN	subst:sg:inst:m3	Case=Ins|Gender=Masc|Number=Sing|SubGender=Masc3	5	obl	5:obl:nad	_
