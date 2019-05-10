@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>17246</sentences><tokens>130967</tokens><words>130967</words><fused>0</fused></total>
+    <train><sentences>13774</sentences><tokens>104750</tokens><words>104750</words><fused>0</fused></train>
+    <dev><sentences>1745</sentences><tokens>13105</tokens><words>13105</words><fused>0</fused></dev>
+    <test><sentences>1727</sentences><tokens>13112</tokens><words>13112</words><fused>0</fused></test>
   </size>
   <lemmas unique="15651" /><!-- ., ,, być, się, w, nie, on, -, i, na, ?, z, to, do, ten -->
   <forms unique="29760" /><!-- ., ,, się, w, nie, -, i, na, ?, z, do, to, –, że, jest -->
@@ -107,11 +110,11 @@
     <feat name="Voice" value="Pass" upos="ADJ">929</feat><!-- przygotowane, przyjęta, wykonane, opanowana, przekazane, oszołomiony, pozamykane, ukryte, wyposażone, wyznaczone -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="40">
     <dep name="acl">870</dep>
     <dep name="acl:relcl">130</dep>
     <dep name="advcl">919</dep>
-    <dep name="advmod">11000</dep>
+    <dep name="advmod">10958</dep>
     <dep name="amod">5909</dep>
     <dep name="appos">170</dep>
     <dep name="aux">547</dep>
@@ -128,6 +131,7 @@
     <dep name="cop:locat">208</dep>
     <dep name="csubj">127</dep>
     <dep name="det">2732</dep>
+    <dep name="discourse">42</dep>
     <dep name="expl:impers">146</dep>
     <dep name="expl:pv">3045</dep>
     <dep name="fixed">173</dep>
