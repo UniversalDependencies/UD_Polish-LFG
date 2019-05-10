@@ -52,6 +52,9 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
 
 # Changelog
 
+* 2019-04-26 v2.4
+  * When UPOS=INTJ (XPOS=interj), DEPREL/DEPS=discourse (instead of advmod)
+  * Fixed non-projective punctuation 
 * 2018-11-01 v2.3
   * Removed double EUD dependency in sentence train-8762
 * 2018-07-01 v2.2

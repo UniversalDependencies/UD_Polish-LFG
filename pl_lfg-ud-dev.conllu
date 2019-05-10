@@ -1,4 +1,4 @@
-#    Copyright (C) 2018 Agnieszka Patejuk, Adam Przepiórkowski
+#    Copyright (C) 2018–2019 Agnieszka Patejuk, Adam Przepiórkowski
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -4264,7 +4264,7 @@
 # text = Ha, już go widzę!
 # converted_from_file = NKJP1M_2002000170_morph_8-p_morph_8.22-s-dis@1.xml
 # genre = fiction
-1	Ha	ha	INTJ	interj	_	5	advmod	5:advmod	SpaceAfter=No
+1	Ha	ha	INTJ	interj	_	5	discourse	5:discourse	SpaceAfter=No
 2	,	,	PUNCT	interp	PunctType=Comm	5	punct	5:punct	_
 3	już	już	PART	qub	_	5	advmod	5:advmod	_
 4	go	on	PRON	ppron3:sg:acc:m1:ter:nakc:npraep	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs|SubGender=Masc1|Variant=Short	5	obj	5:obj	_
@@ -8143,7 +8143,7 @@
 1	my	my	PRON	ppron12:pl:nom:m1:pri	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs|SubGender=Masc1	2	nsubj	2:nsubj	_
 2	zostali	zostać	VERB	praet:pl:m1:perf	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Plur|SubGender=Masc1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	śmy	być	AUX	aglt:pl:pri:imperf:nwok	Aspect=Imp|Number=Plur|Person=1|Variant=Short	2	aux:aglt	2:aux:aglt	_
-4	y	y	INTJ	interj	_	2	advmod	2:advmod	SpaceAfter=No
+4	y	y	INTJ	interj	_	2	discourse	2:discourse	SpaceAfter=No
 5	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	SpaceAfter=No
 6	.	.	PUNCT	interp	PunctType=Peri	2	punct	2:punct	_
 
@@ -10819,7 +10819,7 @@
 # text = o tak się rozszerza.
 # converted_from_file = NKJP1M_7203000156_morph_1-p_morph_1.70-s-dis@1.xml
 # genre = spoken (conversational)
-1	o	o	INTJ	interj	_	4	advmod	4:advmod	_
+1	o	o	INTJ	interj	_	4	discourse	4:discourse	_
 2	tak	tak	ADV	adv:pos	Degree=Pos|PronType=Dem	4	advmod	4:advmod	_
 3	się	się	PRON	qub	PronType=Prs|Reflex=Yes	4	expl:pv	4:expl:pv	_
 4	rozszerza	rozszerzać	VERB	fin:sg:ter:imperf	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
@@ -18999,7 +18999,7 @@
 3	wyraźnie	wyraźnie	ADV	adv:pos	Degree=Pos	1	advmod	1:advmod	_
 4	drobne	drobny	ADJ	adj:pl:acc:f:pos	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	5:amod	_
 5	krople	kropla	NOUN	subst:pl:acc:f	Case=Acc|Gender=Fem|Number=Plur	1	obj	1:obj	SpaceAfter=No
-6	,	,	PUNCT	interp	PunctType=Comm	1	punct	1:punct	_
+6	,	,	PUNCT	interp	PunctType=Comm	8	punct	8:punct	_
 7	wolno	wolno	ADV	adv:pos	Degree=Pos	8	advmod	8:advmod	_
 8	toczące	toczyć	ADJ	pact:pl:acc:f:imperf:aff	Aspect=Imp|Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos|VerbForm=Part|Voice=Act	5	acl	5:acl	_
 9	się	się	PRON	qub	PronType=Prs|Reflex=Yes	8	expl:pv	8:expl:pv	_
