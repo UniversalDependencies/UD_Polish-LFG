@@ -118,7 +118,7 @@
     <dep name="amod">5909</dep>
     <dep name="appos">170</dep>
     <dep name="aux">547</dep>
-    <dep name="aux:aglt">1697</dep>
+    <dep name="aux:clitic">1697</dep>
     <dep name="aux:mood">424</dep>
     <dep name="aux:pass">355</dep>
     <dep name="case">11106</dep>
