@@ -52,6 +52,8 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Fixed validation error: undocumented aux:aglt changed to aux:clitic (harmonizing the Polish treebanks).
 * 2019-04-26 v2.4
   * When UPOS=INTJ (XPOS=interj), DEPREL/DEPS=discourse (instead of advmod)
   * Fixed non-projective punctuation 
