@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Polish-LFG:
-commit f2d21a93462467069f676fbd6ce564f1c9fc4109
+commit 16974177dbcc888128418038be2de170f21f8a0f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 15:06:57 2022 +0200
+Date:   Mon Nov 14 12:05:23 2022 +0100
 Size: counted 130967 of 130967 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.74989076613991.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,11 +24,11 @@ Udapi:
 Udapi: found 28 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 130967 words.
 Genres: found 5 out of 17 known.
-validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-dev.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-dev.conllu
 *** PASSED ***
-validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-test.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-test.conllu
 *** PASSED ***
-validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-train.conllu
+/net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
