@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Polish-LFG:
-commit 952dc94c855bc31294d7de5b88c5503c48d4e889
+commit 8f9329f9c20601e6b7abdacc9d7ddcd82905f8e3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:49:04 2023 +0100
+Date:   Sun May 5 13:13:26 2024 +0200
 Size: counted 130967 of 130967 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.74989076613991.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,10 +25,24 @@ Udapi: found 28 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 130967 words.
 Genres: found 5 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-dev.conllu
+[Line 9530 Sent dev-766 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:takiego:det --> 6:narodowość:nmod)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-test.conllu
+[Line 1233 Sent test-92 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:taki:det --> 9:urwało:advcl)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-train.conllu
+[Line 21411 Sent train-1710 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:takiego:det --> 6:miłość:nmod)
+[Line 22698 Sent train-1809 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:takiego:det --> 9:przyjaźń:nmod)
+[Line 22841 Sent train-1819 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:taki:det --> 10:pan:nmod)
+[Line 59686 Sent train-4754 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:tą:det --> 12:murem:nmod)
+[Line 92878 Sent train-7388 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:wszyscy:det --> 13:znaku:nmod)
+[Line 93137 Sent train-7407 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:takich:det --> 11:beton:nmod)
+[Line 115031 Sent train-9130 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:wszyscy:det --> 2:kapitana:nmod)
+[Line 116999 Sent train-9284 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:takie:det --> 11:ma:advcl)
+[Line 132999 Sent train-10571 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:takie:det --> 9:wypadało:advcl)
+Warnings: 9
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
