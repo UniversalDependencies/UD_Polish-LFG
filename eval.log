@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Polish-LFG:
-commit 8f9329f9c20601e6b7abdacc9d7ddcd82905f8e3
+commit a368452b4005b24b0732f9a9719d2e33f824cf7a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:13:26 2024 +0200
+Date:   Mon Nov 11 16:22:33 2024 +0100
 Size: counted 130967 of 130967 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.74989076613991.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,39 +20,78 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL         28
-Udapi: found 28 bugs.
+               TOTAL         10
+Udapi: found 10 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 130967 words.
-Genres: found 5 out of 17 known.
+Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-dev.conllu
-[Line 9530 Sent dev-766 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:takiego:det --> 6:narodowość:nmod)
-Warnings: 1
-*** PASSED ***
+[Line 279 Sent dev-22 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 542 Sent dev-42 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ale i' does not have the 'ExtPos' feature
+[Line 2332 Sent dev-186 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'a nie' does not have the 'ExtPos' feature
+[Line 3901 Sent dev-309 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ale nie' does not have the 'ExtPos' feature
+[Line 5279 Sent dev-426 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'na temat' does not have the 'ExtPos' feature
+[Line 5846 Sent dev-471 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'w czasie' does not have the 'ExtPos' feature
+[Line 5884 Sent dev-473 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'co najmniej' does not have the 'ExtPos' feature
+[Line 7984 Sent dev-643 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'a nie' does not have the 'ExtPos' feature
+[Line 8577 Sent dev-689 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+[Line 8592 Sent dev-690 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 9530 Sent dev-766 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:takiego:det --> 6:narodowość:nmod)
+Syntax errors: 1
+Warnings: 15
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-test.conllu
-[Line 1233 Sent test-92 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:taki:det --> 9:urwało:advcl)
-Warnings: 1
-*** PASSED ***
+[Line 556 Sent test-44 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 1233 Sent test-92 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:taki:det --> 9:urwało:advcl)
+[Line 6271 Sent test-493 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'a więc' does not have the 'ExtPos' feature
+[Line 6362 Sent test-500 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ale również' does not have the 'ExtPos' feature
+[Line 8870 Sent test-705 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+[Line 8888 Sent test-706 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+[Line 9659 Sent test-764 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'w czasie' does not have the 'ExtPos' feature
+[Line 12475 Sent test-987 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'co do' does not have the 'ExtPos' feature
+[Line 15714 Sent test-1250 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'na pewno' does not have the 'ExtPos' feature
+[Line 15940 Sent test-1266 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'co najwyżej' does not have the 'ExtPos' feature
+[Line 15991 Sent test-1270 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'a nawet' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 1
+Warnings: 14
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-train.conllu
-[Line 21411 Sent train-1710 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:takiego:det --> 6:miłość:nmod)
-[Line 22698 Sent train-1809 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:takiego:det --> 9:przyjaźń:nmod)
-[Line 22841 Sent train-1819 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:taki:det --> 10:pan:nmod)
-[Line 59686 Sent train-4754 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:tą:det --> 12:murem:nmod)
-[Line 92878 Sent train-7388 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:wszyscy:det --> 13:znaku:nmod)
-[Line 93137 Sent train-7407 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:takich:det --> 11:beton:nmod)
-[Line 115031 Sent train-9130 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:wszyscy:det --> 2:kapitana:nmod)
-[Line 116999 Sent train-9284 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:takie:det --> 11:ma:advcl)
-[Line 132999 Sent train-10571 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:takie:det --> 9:wypadało:advcl)
-Warnings: 9
-*** PASSED ***
-Validity: 1
+[Line 355 Sent train-24 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'i tak' does not have the 'ExtPos' feature
+[Line 872 Sent train-66 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A i' does not have the 'ExtPos' feature
+[Line 3253 Sent train-249 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3264 Sent train-250 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3279 Sent train-251 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3292 Sent train-252 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3305 Sent train-253 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3320 Sent train-254 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3337 Sent train-255 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3355 Sent train-256 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 21411 Sent train-1710 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:takiego:det --> 6:miłość:nmod)
+[Line 22698 Sent train-1809 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:takiego:det --> 9:przyjaźń:nmod)
+[Line 22841 Sent train-1819 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:taki:det --> 10:pan:nmod)
+[Line 59686 Sent train-4754 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:tą:det --> 12:murem:nmod)
+[Line 92878 Sent train-7388 Node 11]: [L3 Syntax leaf-det] 'det' not expected to have children (11:wszyscy:det --> 13:znaku:nmod)
+[Line 93137 Sent train-7407 Node 9]: [L3 Syntax leaf-det] 'det' not expected to have children (9:takich:det --> 11:beton:nmod)
+[Line 115031 Sent train-9130 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:wszyscy:det --> 2:kapitana:nmod)
+[Line 116999 Sent train-9284 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:takie:det --> 11:ma:advcl)
+[Line 132999 Sent train-10571 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:takie:det --> 9:wypadało:advcl)
+Syntax errors: 9
+Warnings: 144
+*** FAILED *** with 9 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.294117647058824) = 0.0226244343891403
+(weight=0.0769230769230769) * (score{genres}=0.277777777777778) = 0.0213675213675214
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.705720626482339) = 0.180954006790343
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.705882352941177) = 0.0542986425339367
-(weight=0.307692307692308) * (score{udapi}=0.997862056854017) = 0.307034479032005
+(weight=0.307692307692308) * (score{udapi}=0.999236448876434) = 0.307457368885057
 (weight=0.0769230769230769) * (score{udeprels}=0.605405405405405) = 0.0465696465696466
-(TOTAL score=0.785840183674046) * (availability=1) * (validity=1) = 0.785840183674046
-STARS = 4
-UD_Polish-LFG	0.785840183674046	4
+(TOTAL score=0.785006160505479) * (availability=1) * (validity=0.01) = 0.00785006160505479
+STARS = 0
+UD_Polish-LFG	0.00785006160505479	0
