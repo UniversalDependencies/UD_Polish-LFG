@@ -72,6 +72,7 @@ Agnieszka Patejuk and Adam Przepiórkowski. “From Lexical Functional Grammar t
 Data available since: UD v2.2
 License: GNU GPL 3.0
 Includes text: yes
+Parallel: no
 Genre: fiction nonfiction news spoken social
 Lemmas: converted from manual
 UPOS: converted from manual
