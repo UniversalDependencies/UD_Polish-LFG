@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Polish-LFG:
-commit f1208a37fead0b4965832684b8ce4504662ec130
-Merge: 7e859fe 9a0be46
+commit e277213830ec666e59f47dbbb31d0063d8099bcd
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:28:09 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'pl_lfg'
 Language code (from CoNLL-U file name) = 'pl'
@@ -25,62 +25,62 @@ Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-dev.conllu
-[Line 279 Sent dev-22]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 542 Sent dev-42]: [L3 Warning fixed-without-extpos] Fixed expression 'Ale i' does not have the 'ExtPos' feature
-[Line 2332 Sent dev-186]: [L3 Warning fixed-without-extpos] Fixed expression 'a nie' does not have the 'ExtPos' feature
-[Line 3901 Sent dev-309]: [L3 Warning fixed-without-extpos] Fixed expression 'ale nie' does not have the 'ExtPos' feature
-[Line 5279 Sent dev-426]: [L3 Warning fixed-without-extpos] Fixed expression 'na temat' does not have the 'ExtPos' feature
-[Line 5846 Sent dev-471]: [L3 Warning fixed-without-extpos] Fixed expression 'w czasie' does not have the 'ExtPos' feature
-[Line 5884 Sent dev-473]: [L3 Warning fixed-without-extpos] Fixed expression 'co najmniej' does not have the 'ExtPos' feature
-[Line 7984 Sent dev-643]: [L3 Warning fixed-without-extpos] Fixed expression 'a nie' does not have the 'ExtPos' feature
-[Line 8577 Sent dev-689]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
-[Line 8592 Sent dev-690]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 9530 Sent dev-766]: [L3 Syntax leaf-det] 'det' not expected to have children (4:takiego:det --> 6:narodowość:nmod)
-Syntax errors: 1
+[Line 279 Sent dev-22]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 542 Sent dev-42]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ale i' does not have the 'ExtPos' feature
+[Line 2332 Sent dev-186]: [L3 WARNING fixed-without-extpos] Fixed expression 'a nie' does not have the 'ExtPos' feature
+[Line 3901 Sent dev-309]: [L3 WARNING fixed-without-extpos] Fixed expression 'ale nie' does not have the 'ExtPos' feature
+[Line 5279 Sent dev-426]: [L3 WARNING fixed-without-extpos] Fixed expression 'na temat' does not have the 'ExtPos' feature
+[Line 5846 Sent dev-471]: [L3 WARNING fixed-without-extpos] Fixed expression 'w czasie' does not have the 'ExtPos' feature
+[Line 5884 Sent dev-473]: [L3 WARNING fixed-without-extpos] Fixed expression 'co najmniej' does not have the 'ExtPos' feature
+[Line 7984 Sent dev-643]: [L3 WARNING fixed-without-extpos] Fixed expression 'a nie' does not have the 'ExtPos' feature
+[Line 8577 Sent dev-689]: [L3 WARNING fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+[Line 8592 Sent dev-690]: [L3 WARNING fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 9530 Sent dev-766]: [L3 SYNTAX leaf-det] 'det' not expected to have children (4:takiego:det --> 6:narodowość:nmod)
 Warnings: 15
+SYNTAX errors: 1
 *** FAILED *** with 1 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-test.conllu
-[Line 556 Sent test-44]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 1233 Sent test-92]: [L3 Syntax leaf-det] 'det' not expected to have children (3:taki:det --> 9:urwało:advcl)
-[Line 6271 Sent test-493]: [L3 Warning fixed-without-extpos] Fixed expression 'a więc' does not have the 'ExtPos' feature
-[Line 6362 Sent test-500]: [L3 Warning fixed-without-extpos] Fixed expression 'ale również' does not have the 'ExtPos' feature
-[Line 8870 Sent test-705]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
-[Line 8888 Sent test-706]: [L3 Warning fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
-[Line 9659 Sent test-764]: [L3 Warning fixed-without-extpos] Fixed expression 'w czasie' does not have the 'ExtPos' feature
-[Line 12475 Sent test-987]: [L3 Warning fixed-without-extpos] Fixed expression 'co do' does not have the 'ExtPos' feature
-[Line 15714 Sent test-1250]: [L3 Warning fixed-without-extpos] Fixed expression 'na pewno' does not have the 'ExtPos' feature
-[Line 15940 Sent test-1266]: [L3 Warning fixed-without-extpos] Fixed expression 'co najwyżej' does not have the 'ExtPos' feature
-[Line 15991 Sent test-1270]: [L3 Warning fixed-without-extpos] Fixed expression 'a nawet' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Syntax errors: 1
+[Line 556 Sent test-44]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 1233 Sent test-92]: [L3 SYNTAX leaf-det] 'det' not expected to have children (3:taki:det --> 9:urwało:advcl)
+[Line 6271 Sent test-493]: [L3 WARNING fixed-without-extpos] Fixed expression 'a więc' does not have the 'ExtPos' feature
+[Line 6362 Sent test-500]: [L3 WARNING fixed-without-extpos] Fixed expression 'ale również' does not have the 'ExtPos' feature
+[Line 8870 Sent test-705]: [L3 WARNING fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+[Line 8888 Sent test-706]: [L3 WARNING fixed-without-extpos] Fixed expression 'Na pewno' does not have the 'ExtPos' feature
+[Line 9659 Sent test-764]: [L3 WARNING fixed-without-extpos] Fixed expression 'w czasie' does not have the 'ExtPos' feature
+[Line 12475 Sent test-987]: [L3 WARNING fixed-without-extpos] Fixed expression 'co do' does not have the 'ExtPos' feature
+[Line 15714 Sent test-1250]: [L3 WARNING fixed-without-extpos] Fixed expression 'na pewno' does not have the 'ExtPos' feature
+[Line 15940 Sent test-1266]: [L3 WARNING fixed-without-extpos] Fixed expression 'co najwyżej' does not have the 'ExtPos' feature
+[Line 15991 Sent test-1270]: [L3 WARNING fixed-without-extpos] Fixed expression 'a nawet' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
 Warnings: 14
+SYNTAX errors: 1
 *** FAILED *** with 1 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang pl --max-err=10 UD_Polish-LFG/pl_lfg-ud-train.conllu
-[Line 355 Sent train-24]: [L3 Warning fixed-without-extpos] Fixed expression 'i tak' does not have the 'ExtPos' feature
-[Line 872 Sent train-66]: [L3 Warning fixed-without-extpos] Fixed expression 'A i' does not have the 'ExtPos' feature
-[Line 3253 Sent train-249]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 3264 Sent train-250]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 3279 Sent train-251]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 3292 Sent train-252]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 3305 Sent train-253]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 3320 Sent train-254]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 3337 Sent train-255]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-[Line 3355 Sent train-256]: [L3 Warning fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-[Line 21411 Sent train-1710]: [L3 Syntax leaf-det] 'det' not expected to have children (4:takiego:det --> 6:miłość:nmod)
-[Line 22698 Sent train-1809]: [L3 Syntax leaf-det] 'det' not expected to have children (7:takiego:det --> 9:przyjaźń:nmod)
-[Line 22841 Sent train-1819]: [L3 Syntax leaf-det] 'det' not expected to have children (8:taki:det --> 10:pan:nmod)
-[Line 59686 Sent train-4754]: [L3 Syntax leaf-det] 'det' not expected to have children (10:tą:det --> 12:murem:nmod)
-[Line 92878 Sent train-7388]: [L3 Syntax leaf-det] 'det' not expected to have children (11:wszyscy:det --> 13:znaku:nmod)
-[Line 93137 Sent train-7407]: [L3 Syntax leaf-det] 'det' not expected to have children (9:takich:det --> 11:beton:nmod)
-[Line 115031 Sent train-9130]: [L3 Syntax leaf-det] 'det' not expected to have children (3:wszyscy:det --> 2:kapitana:nmod)
-[Line 116999 Sent train-9284]: [L3 Syntax leaf-det] 'det' not expected to have children (2:takie:det --> 11:ma:advcl)
-[Line 132999 Sent train-10571]: [L3 Syntax leaf-det] 'det' not expected to have children (4:takie:det --> 9:wypadało:advcl)
-Syntax errors: 9
+[Line 355 Sent train-24]: [L3 WARNING fixed-without-extpos] Fixed expression 'i tak' does not have the 'ExtPos' feature
+[Line 872 Sent train-66]: [L3 WARNING fixed-without-extpos] Fixed expression 'A i' does not have the 'ExtPos' feature
+[Line 3253 Sent train-249]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3264 Sent train-250]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3279 Sent train-251]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3292 Sent train-252]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3305 Sent train-253]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3320 Sent train-254]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3337 Sent train-255]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+[Line 3355 Sent train-256]: [L3 WARNING fixed-without-extpos] Fixed expression 'A więc' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 21411 Sent train-1710]: [L3 SYNTAX leaf-det] 'det' not expected to have children (4:takiego:det --> 6:miłość:nmod)
+[Line 22698 Sent train-1809]: [L3 SYNTAX leaf-det] 'det' not expected to have children (7:takiego:det --> 9:przyjaźń:nmod)
+[Line 22841 Sent train-1819]: [L3 SYNTAX leaf-det] 'det' not expected to have children (8:taki:det --> 10:pan:nmod)
+[Line 59686 Sent train-4754]: [L3 SYNTAX leaf-det] 'det' not expected to have children (10:tą:det --> 12:murem:nmod)
+[Line 92878 Sent train-7388]: [L3 SYNTAX leaf-det] 'det' not expected to have children (11:wszyscy:det --> 13:znaku:nmod)
+[Line 93137 Sent train-7407]: [L3 SYNTAX leaf-det] 'det' not expected to have children (9:takich:det --> 11:beton:nmod)
+[Line 115031 Sent train-9130]: [L3 SYNTAX leaf-det] 'det' not expected to have children (3:wszyscy:det --> 2:kapitana:nmod)
+[Line 116999 Sent train-9284]: [L3 SYNTAX leaf-det] 'det' not expected to have children (2:takie:det --> 11:ma:advcl)
+[Line 132999 Sent train-10571]: [L3 SYNTAX leaf-det] 'det' not expected to have children (4:takie:det --> 9:wypadało:advcl)
 Warnings: 144
+SYNTAX errors: 9
 *** FAILED *** with 9 errors
 Exit code: 1
 Validity: 0.01
